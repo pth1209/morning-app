@@ -30,7 +30,8 @@ struct HomeView: View {
                 
                 ZStack {
                     Circle()
-                        .fill(Color.purple)
+                        .foregroundColor(.white)
+                        .opacity(0.01)
                     
                     Spacer()
                     
@@ -227,7 +228,7 @@ struct ContentView: View {
                 }
 
             
-            SettingsView()
+            SettingsView() // Timer
                 .tabItem {
                     Image(systemName: "timer")
                     Text("Timer")

@@ -46,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F0F04B32911FBE8006BBDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6F7F040D2908C4C0006A7134 /* morning-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "morning-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7F04102908C4C0006A7134 /* morning_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morning_appApp.swift; sourceTree = "<group>"; };
 		6F7F04122908C4C0006A7134 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 		6F7F040F2908C4C0006A7134 /* morning-app */ = {
 			isa = PBXGroup;
 			children = (
+				6F0F04B32911FBE8006BBDBF /* Info.plist */,
 				6F7F04102908C4C0006A7134 /* morning_appApp.swift */,
 				6F7F04122908C4C0006A7134 /* ContentView.swift */,
 				6F7F04362908C5FC006A7134 /* TimerView.swift */,
@@ -450,10 +452,10 @@
 				DEVELOPMENT_TEAM = MPKWG72TH9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "morning-app/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "morning-app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -483,10 +485,10 @@
 				DEVELOPMENT_TEAM = MPKWG72TH9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "morning-app/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "morning-app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;

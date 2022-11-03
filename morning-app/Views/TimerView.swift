@@ -1,10 +1,12 @@
 //
 //  TimerView.swift
-//  morning-routine
+//  morning-app
 //
-//  Created by Lawrence Park on 10/22/22.
+//  Created by Lawrence Park on 11/2/22.
 //
 
+// need this TimerView file for the SettingView file to work
+//code borrowed from https://tutorial101.blogspot.com/2021/06/swiftui-timer-using-circular-progress.html
 import SwiftUI
  
 let timer = Timer
